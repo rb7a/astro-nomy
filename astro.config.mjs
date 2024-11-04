@@ -29,7 +29,5 @@ export default defineConfig({
     simpleStackForm(),
   ],
   output: "hybrid",
-  adapter: vercel({
-    analytics: true,
-  }),
+  adapter: netlify(),
 });
